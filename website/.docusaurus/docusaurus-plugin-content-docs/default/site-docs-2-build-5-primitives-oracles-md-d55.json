@@ -1,7 +1,7 @@
 {
   "id": "build/primitives/oracles",
-  "title": "Price Oracles",
-  "description": "Oracles are smart contracts that enable you to query the current price of an asset.",
+  "title": "Oracles",
+  "description": "Blockchain Oracles serve as intermediaries that connect smart contracts with external (off-chain) data.",
   "source": "@site/../docs/2.build/5.primitives/oracles.md",
   "sourceDirName": "2.build/5.primitives",
   "slug": "/build/primitives/oracles",
@@ -11,11 +11,11 @@
   "editUrl": "https://github.com/near/docs/edit/master/website/../docs/2.build/5.primitives/oracles.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "gagdiez",
-  "lastUpdatedAt": 1712759479000,
+  "lastUpdatedBy": "Josh Ford",
+  "lastUpdatedAt": 1732140592000,
   "frontMatter": {
     "id": "oracles",
-    "title": "Price Oracles"
+    "title": "Oracles"
   },
   "sidebar": "build",
   "previous": {

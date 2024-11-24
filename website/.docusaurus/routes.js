@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/zh-CN/blog',
-    component: ComponentCreator('/zh-CN/blog', 'a1f'),
+    component: ComponentCreator('/zh-CN/blog', '42f'),
     exact: true
   },
   {
@@ -45,6 +45,16 @@ export default [
   {
     path: '/zh-CN/blog/getting-started-on-windows',
     component: ComponentCreator('/zh-CN/blog/getting-started-on-windows', '7b6'),
+    exact: true
+  },
+  {
+    path: '/zh-CN/blog/hello-ethereum-wallets',
+    component: ComponentCreator('/zh-CN/blog/hello-ethereum-wallets', '84e'),
+    exact: true
+  },
+  {
+    path: '/zh-CN/blog/page/2',
+    component: ComponentCreator('/zh-CN/blog/page/2', '284'),
     exact: true
   },
   {
@@ -99,7 +109,7 @@ export default [
   },
   {
     path: '/zh-CN/blog/tags/updates',
-    component: ComponentCreator('/zh-CN/blog/tags/updates', 'c8f'),
+    component: ComponentCreator('/zh-CN/blog/tags/updates', '082'),
     exact: true
   },
   {
@@ -129,15 +139,15 @@ export default [
   },
   {
     path: '/zh-CN/',
-    component: ComponentCreator('/zh-CN/', '5f1'),
+    component: ComponentCreator('/zh-CN/', 'c76'),
     routes: [
       {
         path: '/zh-CN/',
-        component: ComponentCreator('/zh-CN/', 'd7f'),
+        component: ComponentCreator('/zh-CN/', '8f0'),
         routes: [
           {
             path: '/zh-CN/',
-            component: ComponentCreator('/zh-CN/', 'efa'),
+            component: ComponentCreator('/zh-CN/', 'ecf'),
             routes: [
               {
                 path: '/zh-CN/api/rpc/access-keys',
@@ -1028,7 +1038,7 @@ export default [
               },
               {
                 path: '/zh-CN/build/web3-apps/ai/ai-assistant',
-                component: ComponentCreator('/zh-CN/build/web3-apps/ai/ai-assistant', '51e'),
+                component: ComponentCreator('/zh-CN/build/web3-apps/ai/ai-assistant', '7f2'),
                 exact: true,
                 sidebar: "build"
               },
@@ -1510,7 +1520,7 @@ export default [
               },
               {
                 path: '/zh-CN/tutorials/auction/updating-the-frontend',
-                component: ComponentCreator('/zh-CN/tutorials/auction/updating-the-frontend', 'e25'),
+                component: ComponentCreator('/zh-CN/tutorials/auction/updating-the-frontend', '0ba'),
                 exact: true,
                 sidebar: "tutorials"
               },
